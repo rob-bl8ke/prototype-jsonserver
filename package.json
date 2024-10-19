@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node \"./concat-json.js\" && json-server --watch ./data/db.json --port 6000"
+  },
+  "dependencies": {
+    "json-concat": "^0.0.1",
+    "json-server": "^1.0.0-beta.1"
+  }
+}

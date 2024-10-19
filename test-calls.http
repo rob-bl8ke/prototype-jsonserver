@@ -1,0 +1,12 @@
+
+# Install RestClient
+# Do an npm i
+# Simply run npm start
+
+# Go fetch some posts
+GET http://localhost:6000/exercise_topics
+Content-Type: application/json
+
+###
+GET http://localhost:6000/exercise_topics/2
+Content-Type: application/json
